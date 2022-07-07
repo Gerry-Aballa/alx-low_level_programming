@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int n,d;
+	int n;
 
-	d = 100;
-
-	for (n = 1; n <= d; n++)
+	n = 1;
+	printf("%d", n);
+	for (n = 2; n <= 100; n++)
 	{
-		if (n % 3 == 0 && n % 5 == 0)
+		if ((n % 3 == 0) && (n % 5 == 0))
 		{
 			printf(" FizzBuzz");
 		}
