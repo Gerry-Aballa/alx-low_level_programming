@@ -5,20 +5,21 @@
  *
  * Return: Always 0.
  */
+
 void print_most_numbers(void)
 {
-  int i;
+	int i;
 
-  for (1 = 0 ; i <= 9 ; i++)
-    {
-      if (i != 2 && i != 4)
+	for (i = 0 ; i <= 9 ; i++)
 	{
-	  _putchar(i);
+		if (i != 2 && i != 4)
+		{
+			_putchar(i);
+		}
+		else
+		{
+			continue;
+		}
 	}
-      else
-	{
-	  continue;
-	}
-    }
-  _putchar('\n');
+	_putchar('\n');
 }
