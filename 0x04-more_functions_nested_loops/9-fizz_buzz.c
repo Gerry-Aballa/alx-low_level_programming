@@ -8,13 +8,11 @@ int main(void)
 {
 	int n,d;
 
-	n = 1;
 	d = 100;
 
-	printf("%d", n);
-	for (n = 2; n <= d; n++)
+	for (n = 1; n <= d; n++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		if (n % 3 == 0 && n % 5 == 0)
 		{
 			printf(" FizzBuzz");
 		}
